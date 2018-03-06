@@ -6,11 +6,20 @@ High-dimensional multi-source data are encountered in many fields. Despite recen
 
 In `GIPCA` function,<br />
 `data`: A list of two or more linked data matrices . These matrices must have the same row dimension.<br />
+<br />
 `rankj`: An integer giving the joint rank of the data. <br />
+<br />
 `ranka`: A vector of integers giving the individual ranks of the data. <br />
+<br />
 `D`: A vector of integers giving the number of variables in each data set.<br />
+<br />
 `family`: A vector of characters which sepcify the distributions of each data set in data list.<br />
+<br />
 `tol`: An integer specifies the tolerance number in the iteration. The default number is 0.1.<br />
+<br />
 `max.iter`: An integer sepcify the maximum number of iterations. The default number is 500.<br />
+<br />
 `n.size`: A matrix to specify the number of trials when one of the data set is generated from binomial distribution.<br />
+<br />
 `lambda`: A penalty term when one of the data set if geenrated from binary distribution. The defual number is 0.<br />
+<br />
