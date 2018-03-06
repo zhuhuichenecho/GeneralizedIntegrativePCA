@@ -4,7 +4,7 @@ High-dimensional multi-source data are encountered in many fields. Despite recen
 
 #Arguments
 
-In `GIPCA` function,
+In `GIPCA` function,\\
 `data`: A list of two or more linked data matrices . These matrices must have the same row dimension.
 `rankj`: An integer giving the joint rank of the data. 
 `ranka`: A vector of integers giving the individual ranks of the data. 
