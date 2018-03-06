@@ -4,13 +4,13 @@ High-dimensional multi-source data are encountered in many fields. Despite recen
 
 #Arguments
 
-In `GIPCA` function,\\
-`data`: A list of two or more linked data matrices . These matrices must have the same row dimension.
-`rankj`: An integer giving the joint rank of the data. 
-`ranka`: A vector of integers giving the individual ranks of the data. 
-`D`: A vector of integers giving the number of variables in each data set.
-`family`: A vector of characters which sepcify the distributions of each data set in data list.
-`tol`: An integer specifies the tolerance number in the iteration. The default number is 0.1.
-`max.iter`: An integer sepcify the maximum number of iterations. The default number is 500.
-`n.size`: A matrix to specify the number of trials when one of the data set is generated from binomial distribution.
-`lambda`: A penalty term when one of the data set if geenrated from binary distribution. The defual number is 0.
+In `GIPCA` function,<br />
+`data`: A list of two or more linked data matrices . These matrices must have the same row dimension.<br />
+`rankj`: An integer giving the joint rank of the data. <br />
+`ranka`: A vector of integers giving the individual ranks of the data. <br />
+`D`: A vector of integers giving the number of variables in each data set.<br />
+`family`: A vector of characters which sepcify the distributions of each data set in data list.<br />
+`tol`: An integer specifies the tolerance number in the iteration. The default number is 0.1.<br />
+`max.iter`: An integer sepcify the maximum number of iterations. The default number is 500.<br />
+`n.size`: A matrix to specify the number of trials when one of the data set is generated from binomial distribution.<br />
+`lambda`: A penalty term when one of the data set if geenrated from binary distribution. The defual number is 0.<br />
