@@ -24,3 +24,14 @@ In `GIPCA` function,<br />
 <br />
 `lambda`: A penalty term when one of the data set if geenrated from binary distribution. The defual number is 0.<br />
 <br />
+
+In `GIPCABIC` function, <br />
+<br />
+`data`: A list of two or more linked data matrices . These matrices must have the same row dimension.<br />
+<br />
+`rankj`: An integer giving the joint rank of the data. <br />
+<br />
+`ranka`: A vector of integers giving the individual ranks of the data. <br />
+<br />
+`tol`: An integer specifies the tolerance number in the iteration. The default number is 0.1.<br />
+<br />
