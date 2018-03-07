@@ -1,4 +1,4 @@
-EPCAJIVEinterPoissonMissBIC<-function(data,rankj,ranka,tol){
+GIPCABIC<-function(data,rankj,ranka,tol){
   
   
   
