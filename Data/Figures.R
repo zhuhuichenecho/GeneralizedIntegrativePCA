@@ -302,10 +302,6 @@ p3 = ggplot(data = jointscore)+geom_line(aes(x = year,y = U.joint,group = 1),siz
   annotate("text",x = 1918,y = -3,label = "Spanish Flu",color = "black",size = 8,fontface = 2)+theme(legend.text=element_text(size=16),
                                                                                                      axis.text=element_text(size=30),
                                                                                                      axis.title=element_text(size=30,face="bold"))
-geom_polygon(data = rec,aes(x = x,y = y,group = 1),
-             color="grey20",
-             alpha=0.3,
-             inherit.aes = FALSE)
 
 pdf("Ujoint.pdf",width = 11, height = 8.5) 
 p3
@@ -354,14 +350,7 @@ p6 = ggplot(data = indscoreItaly)+geom_line(aes(x = year,y = score,group = 1),si
                                                                                              axis.text=element_text(size=30),
                                                                                              axis.title=element_text(size=30,face="bold"))
 
-+geom_polygon(data = rec1,aes(x = x,y = y,group = 1),
-              color="grey20",
-              alpha=0.3,
-              inherit.aes = FALSE)+
-  +geom_polygon(data = rec2,aes(x = x,y = y,group = 1),
-                color="grey20",
-                alpha=0.3,
-                inherit.aes = FALSE)
+
 
 pdf("ItalyUind.pdf",width = 11, height = 8.5)
 p6
